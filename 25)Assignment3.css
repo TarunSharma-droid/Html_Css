@@ -1,0 +1,55 @@
+*{
+    margin : 0%;
+    padding : 0%;
+}
+
+html,body{
+   background-color:bisque;
+   width : 100%;
+   height : 100%;
+   display : flex;
+   align-items : center;
+   justify-content : center ;
+}
+
+.abc{
+ /* margin : 15px; will give margin to the every box in every direction */
+    margin-top : 50px; /* will give the margin in only particular dirction */
+    margin-left :50px; 
+    width : 200px;
+    height : 200px;
+    border : 5px solid black ;
+    font-size: xx-large;
+    color: blue;
+    display : flex; /* since we have to display the text in the center of the div */
+    align-items : center;
+    justify-content : center;
+
+}
+
+#box2{
+    rotate : 45deg; 
+    margin : 50px; /* given extra margine to the box 2 to prevent its overlaping from box 1 */
+}
+
+#box3{
+    border-radius :50%;
+    width : 200px;
+    height : 200px;
+}
+ 
+#box2 h1{
+    rotate : -45deg; /* to allign "2" */
+}
+
+#box1:hover{   /* this type of nomenculture is used when we want the change to be made only at hovering */
+ background-color : red;
+}
+
+#box2:hover{   /* this type of nomenculture is used when we want the change to be made only at hovering */
+ background-color : blueviolet;
+}
+
+#box3:hover{   /* this type of nomenculture is used when we want the change to be made only at hovering */
+ background-color : yellow;
+}

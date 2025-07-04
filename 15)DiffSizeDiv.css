@@ -1,0 +1,64 @@
+*{
+    margin : 0%;
+    padding : 0%;
+
+}
+
+html,body{
+    width : 100%;
+    height :100%;
+}
+
+body {
+    background-color : antiquewhite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div{  
+    font-size : xx-large;
+    font-family :'Times New Roman', Times, serif;
+
+}
+
+#box1{  
+    width : 200px; 
+    height :200px ;  /* Using px too make perfect square */ 
+    background-color : yellowgreen;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#box2{  
+    border-radius : 15px ; /* to give curve to the border can be given in px or % */
+    border-style: double;
+    border-width : 5px ;   /* determines the boldness of the border */
+    width : 30%; 
+    height : 30% ; 
+    background-color : palevioletred;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    border-style : solid ;
+    border-radius : 15px ; /* to give curve to the heading */
+    width : 20% ;
+}
+
+#box3{
+    display :flex; /* to bring the content written in the box in the center */
+    align-items : center;
+    justify-content: center;
+    width : 200px; 
+    height : 200px ; 
+    background-color : yellowgreen;
+    border-radius : 50%;  /* to make a circle use radius = 50% */              
+    border-style : solid ;
+    
+}

@@ -1,0 +1,26 @@
+*{
+    margin : 0%;
+    padding : 0%;
+}
+html,body{
+ width : 100%;
+ height : 100%;
+ display : flex;
+ align-items: center;
+ justify-content:center;
+
+}
+
+#box1{
+    border-style : solid;
+    border-color: black;
+    background-color: pink;
+    width : 400px;
+}
+
+#img1{
+    float : left; /* the content will appear on the left of image */
+}
+#img2{
+    float :right; /* the content will appear on the right of image */
+}

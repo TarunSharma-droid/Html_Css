@@ -1,0 +1,193 @@
+*{
+    margin :0%;
+    padding:0%;
+}
+
+html,body{
+
+    width : 100%;
+    height: 100%;
+}
+
+/* we can also used the quantity "vh" and "vw" to give heigth and the width ratheer than
+   using percentage.
+   The advantage of using the vh and vw is, it does not depends on the parent but it 
+   only depends on the width and heigth of the body only everytime for any
+   of the div */
+
+#Header{   /* parent is body */
+    background-color :white;
+    width : 100%;
+    height : 10%; /* of the parent */
+    position : fixed; /* to make the single header fixed for both the pages */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+
+#logo{
+    margin-right : 50px;
+}
+#logo img {
+    width : 100px;
+    height : 200px; /* of the parent */
+}
+
+#search,#earth { 
+    border-radius : 50%;
+    padding : 7px ; /* to increase the size of the background of the icons */
+}
+#search:hover,#earth:hover{
+    background-color:rgb(213, 221, 227);
+} /* only the bg color changes on the hovering are rest things like border radius and padding remains same */
+/* if we mention the background color also inside the hovering than in that case all the ekements of the header will shift on hovering */
+#login {
+    padding: 6px;
+
+}
+#login:hover{
+    background-color:rgb(213, 221, 227);
+    border-width: 1px;
+    border-radius :10px;
+}
+
+#Try{
+    background-color: rgb(54, 143, 54);
+    border: solid;
+    border-width: 1px;
+    border-radius : 5px;
+    width : 100px;
+    height : 30px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    color : white;
+}
+#Try:hover{
+    background-color:rgb(18, 69, 18);
+}
+.abc{
+ margin-right :45px;
+ color :rgb(15, 15, 76);
+}
+
+.abc:hover{
+ color: rgb(95, 127, 138);
+}
+
+#page1{
+    width : 100%;
+    height :100%; 
+    background-color:white;
+}
+
+#blank{   /* it is a fake header , it is important to add it otherwise box 1 which is dark blue will occur just behind the header in page 1 */
+    width : 100%;
+    height : 10%; /* of the parent */
+    background-color: white;
+}
+#box1{   /* parent is page1 */
+    background-color : darkblue;
+    width : 100%;
+    height : 5%;  /* 5% of the heigth of its parent i.e. page 1 */
+    color: white;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box1_1{
+    margin-right :40px;
+}
+
+main{
+    display : flex;  /* just to bring both box 3 and box 4 left right to each other */
+    width : 100%;
+    height :62%;
+}
+#box2{
+    width : 50%; /* of the parent */
+    height : 81.5%; /* we cant take the heigth of the box to be 100% of its parent that is main because hum box 2 ko margine de rhe hain top or left se to agar 100% height denge to
+    box main se bahar nikaal jayega kyo ki margine box ki heigth mai count nhi hogi. */
+    background-color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top : 100px;
+    margin-left : 60px;
+    font-size: xx-large;  
+}
+#box2_2{
+    font-size:smaller;
+    margin-bottom : 80px;
+}
+
+main_2{
+    display : flex;
+    align-items : center;
+}
+#box2_3{
+    background-color: rgb(43, 180, 225);
+    border-style:solid;
+    border-width: 2px;;
+    border-radius : 5px;
+    width : 250px;
+    height : 70px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    color : white;
+    margin-right : 30px;
+}
+#box2_3:hover{
+    background-color:darkblue;
+    color : white;
+}
+
+#box2_4{
+    background-color: white;
+    border-style:solid;
+    border-width: 2px;;
+    border-radius : 5px;
+    border-color:rgb(43, 180, 225);
+    width : 250px;
+    height : 70px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    color :  rgb(43, 180, 225);
+    margin-left : 30px;
+}
+#box2_4:hover{
+    background-color:rgb(43, 180, 225);
+    color : white;
+}
+
+#box3{
+    width : 50%; /* of the parent */
+    height : 100%; 
+    background-color: white  ;
+}
+#box3 img{
+    object-fit: cover; /* imgage ko box 3 mai lane le liye */
+    width:100%;
+    height:100%;
+}
+
+
+#box4{
+    width : 100%;
+    height : 23%;
+    background-color:white ;
+    color: darkblue; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2{
+    width : 100%;
+    height :90%; 
+    background-color: antiquewhite;
+}

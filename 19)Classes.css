@@ -1,0 +1,21 @@
+*{
+    margin : 0%;
+    padding : 0%;
+}
+
+html,body{
+
+    width : 100%;
+    height : 100%;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.abc{ /* the property written in this class will be implemented in all the places where it is called . */
+    font-style: italic;
+    font-weight : bolder ;
+    color : green ;
+    text-align: right ;
+}

@@ -1,0 +1,30 @@
+
+* { /*    " * "  Universal selector is used when we wants to give any specific propert to all the elements of the HTML file */
+
+    margin: 0%;  /*for deciding margin of everthing of the webpage */
+    padding : 0%;  /*for deciding padding of everthing of the webpage */
+    font-family : cursive ;
+}
+
+html,body {
+    width : 100%;  /* it means the full screen is used by body and html */
+    height : 100%;
+
+}
+
+    h1{
+    background-color: rgb(147, 45, 45);
+    width: 50%;           /* if not used than by default the width is 100% */
+                          /* choosing width = 50% means heading ka jo parent hoga uski 50% width choose ki jaygi.. or heading ka parent hai body 
+                          body ki width set ki hai 100% but for heading hum us 100% ka 50% le rahe hain */
+    color : black ;
+    text-align : center ;
+    }
+    
+body{
+        background-color: gray;
+    }
+
+p{
+    color : red;
+}

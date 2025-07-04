@@ -1,0 +1,54 @@
+*{
+    margin :0%;
+    padding:0%;
+}
+
+html,body{
+
+    width : 100%;
+    height : 100%;
+}
+
+body{
+    background-color :blueviolet;
+    display : flex;
+    align-items : center;
+    justify-content : center;  
+}
+
+.abc{
+    position : absolute ; /*by using only this all the divs will appear one behind each other and rotated along the center */
+    width : 200px;
+    height : 300px;
+    border : solid ;
+    border-width : 10 px;
+    border-radius:10% ;
+    overflow : hidden ; /*used to protect the overflow of image from the div */
+}
+
+/* box 1 is not rotated by any degrees */
+
+#box2{
+    rotate : 5deg;
+}
+
+#box3{
+    rotate : 10deg;
+}
+
+#box4{
+    rotate : 15deg; 
+}
+
+#box1:hover{
+    z-index : 4;
+}
+#box2:hover{
+    z-index : 3;   
+}
+#box3:hover{
+    z-index : 2;
+}
+#box4:hover{
+    z-index : 1;   
+}

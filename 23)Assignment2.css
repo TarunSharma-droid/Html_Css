@@ -1,0 +1,28 @@
+*{
+    margin : 0%;
+    padding :0%;
+}
+
+html,body{
+ width : 100%;
+ height : 100%;
+}
+
+
+#box1{
+    width : 50%;
+    height : 50%;
+    background-color :blueviolet;
+    border : solid ;
+    border-radius : 20px;
+    border-width : 5%;
+}
+
+#box2{
+    width : 50%; /* it will have the width 50% of its parent that is box 1 */
+    height : 50%;
+    background-color :red;
+    border : solid ;
+    border-radius : 20px;
+    border-width : 5%;
+}
