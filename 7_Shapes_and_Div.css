@@ -1,0 +1,26 @@
+*{
+    margin : 0%;
+    padding : 0%;
+}
+
+html,body{
+    width : 100%;
+    height :100%;
+}
+
+body {
+    background-color : antiquewhite;
+}
+
+div{ 
+    background-color : brown;
+    width : 50%;      /* that means 50% of the width of its parent (that is body havind width 100% )*/
+    height : 50% ;    /* that means 50% of the height of its parent (that is body havind height 100% )*/
+    border: 2px solid black;
+}
+
+
+#first>p {            /* "Nested Selector" : this type of nested selector is used when we want to give property to any specific element present in another element */
+    color :blue;  
+    font-size: larger;
+}
