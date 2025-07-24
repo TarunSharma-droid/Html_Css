@@ -1,0 +1,39 @@
+*{
+    margin : 0%;
+    padding : 0%;
+}
+
+html,body{
+    width : 100%;
+    height :100%;
+}
+
+body {
+    background-color : antiquewhite;
+    
+/*  The parent of divs is "body" so have to use these properties in body tag .
+    Because we are setting the position of divs in its parent that is "body" */
+
+    align-items: center ;      /* will move both the divs vertically in the center of body */
+    justify-content : center ; /* will move both the divs horizontally in the center of body */
+
+    display :flex;   
+    /* it is important to use when we use any of the above two properties. Without it they dont works 
+    also divs are block elements (appears one below to other) so this display : flex make it inline                */
+}
+
+
+div{
+    width : 30%; 
+    height : 30% ; 
+    font-size : xx-large;
+    font-family :'Times New Roman', Times, serif; 
+}
+
+#box1{  
+    background-color : yellowgreen;
+}
+
+#box2{  
+    background-color : brown;
+}

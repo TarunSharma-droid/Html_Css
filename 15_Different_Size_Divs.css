@@ -1,7 +1,6 @@
 *{
     margin : 0%;
     padding : 0%;
-
 }
 
 html,body{
@@ -11,54 +10,54 @@ html,body{
 
 body {
     background-color : antiquewhite;
-    display:flex;
+    
     align-items: center;
     justify-content: center;
-
+    display:flex;
 }
 
 div{  
     font-size : xx-large;
     font-family :'Times New Roman', Times, serif;
-
 }
 
 #box1{  
     width : 200px; 
     height :200px ;  /* Using px too make perfect square */ 
     background-color : yellowgreen;
-    display:flex;
+    
     align-items: center;
     justify-content: center;
-
+    display:flex;
 }
 
 #box2{  
-    border-radius : 15px ; /* to give curve to the border can be given in px or % */
-    border-style: double;
-    border-width : 5px ;   /* determines the boldness of the border */
-    width : 30%; 
-    height : 30% ; 
+    
+    width : 30%;       /* 30% width of its parent that is body */
+    height : 30% ;     /* 30% height of its parent that is body */
     background-color : palevioletred;
-    display:flex;
+
     align-items: center;
     justify-content: center;
+    display:flex;
 
+    border-radius : 15px ;  /* to give curve to the border (in px or %) */
+    border-style: double;
+    border-width : 5px ;    /* determines the boldness of the border */
 }
-h1{
-    border-style : solid ;
-    border-radius : 15px ; /* to give curve to the heading */
-    width : 20% ;
-}
+
 
 #box3{
-    display :flex; /* to bring the content written in the box in the center */
-    align-items : center;
-    justify-content: center;
+   
     width : 200px; 
     height : 200px ; 
     background-color : yellowgreen;
-    border-radius : 50%;  /* to make a circle use radius = 50% */              
+
+    align-items: center;
+    justify-content: center;
+    display:flex;
+
+    border-radius : 50%;   /* to make a circle use radius = 50% */              
     border-style : solid ;
-    
+    border-width : 5px ; 
 }
