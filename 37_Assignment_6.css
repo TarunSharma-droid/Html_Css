@@ -17,7 +17,8 @@ body{
 }
 
 .abc{
-    position : absolute ; /*by using only this with the diplay flex all the divs will appear one behind each other and rotated along the center */
+    position : absolute ; /* used with above properties bich mai la ke center ke along ghuma dega*/
+    
     width : 200px;
     height : 300px;
     border : solid ;

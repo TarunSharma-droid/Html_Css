@@ -28,19 +28,18 @@ html,body{
 }
 
 #box2{
-    rotate : 45deg; 
-    margin : 50px; /* given extra margine to the box 2 to prevent its overlaping from box 1 */
+    rotate : 45deg;   
+}
+
+#box2 > h1{
+    rotate : -45deg; /* to allign "2" */
 }
 
 #box3{
     border-radius :50%;
-    width : 200px;
-    height : 200px;
 }
  
-#box2 h1{
-    rotate : -45deg; /* to allign "2" */
-}
+
 
 #box1:hover{   /* this type of nomenculture is used when we want the change to be made only at hovering */
  background-color : red;

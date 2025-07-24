@@ -14,12 +14,12 @@ body {
 /*  The parent of divs is "body" so have to use these properties in body tag .
     Because we are setting the position of divs in its parent that is "body" */
 
+    display :flex;    /* it means side by side krke dispay karo */
+
     align-items: center ;      /* will move both the divs vertically in the center of body */
     justify-content : center ; /* will move both the divs horizontally in the center of body */
 
-    display :flex;   
-    /* it is important to use when we use any of the above two properties. Without it they dont works 
-    also divs are block elements (appears one below to other) so this display : flex make it inline                */
+    /* if we use any of the above two properties then have to use with dispaly flex */
 }
 
 

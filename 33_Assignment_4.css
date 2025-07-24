@@ -11,18 +11,16 @@ html,body{
 
 body{
     background-color :blueviolet;
-/*  display : flex;
-    align-items : center;
-    justify-content : center;
-    border : solid ;   */
+
 }
 
 .abc{
 
-    position : absolute ; /*alternate method to bring the div in the center of the page without depending on the parent of the div i.e. body here */
-    top : 50%;            /* and by using this method all the divs will appear one behind each other */
+    top : 50%;        /*alternate method to bring the divs in the center of the page witout depending on parent*/  
     left : 50% ; 
     transform : translate(-50%,-50%);
+
+    position : absolute ; /* make one above the other and rotate along the corner when used with above properties  */
 
     width : 200px;
     height : 300px;

@@ -1,0 +1,47 @@
+*{
+    margin : 0%; 
+    padding : 0%;
+}
+
+html,body{
+    width : 100%;
+    height : 100%;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.abc{ /* the property written in this class will be implemented in all the places where it iss called . */
+    font-style: italic;
+    font-weight : bolder ;
+    color : green ;
+    text-align: center ;
+}
+
+#box1{ 
+    width :40%; 
+    background-color: aquamarine;
+
+    margin : 30px;  /* Denotes the distance of the box from the relative top and the left of the screen ( margine is by default present in all direction ) */
+    
+}
+
+#box2{ 
+    width :40%; 
+    background-color: aquamarine;
+
+    margin : 30px;  /* Denotes the distance of the box from the relative top and the left of the screen ( margine is by default present in all direction ) */
+    padding : 30px; /* Denotes the position of the content present inside the box ( padding is also by default present in all direction ) */
+}
+
+
+h3{
+    width : 40%;
+    background-color: blueviolet;
+
+    height : 200px; /* as height is more than bottom padding so it will dominate over it */
+    margin : 40px;
+    padding : 60px  30px 10px ; /* box-top  box-right  box-left */
+    
+}

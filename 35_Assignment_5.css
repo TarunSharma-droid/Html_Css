@@ -15,10 +15,11 @@ body{
 
 .abc{
 
-    position : absolute ; /* used when we want to bring one thing below another thing */
     top : 50%;         
     left : 50% ; 
     transform : translate(-50%,-50%);
+
+    position : absolute ; /* when used with above properties => beech mai la ke corener ke along ghuma dega */
 
     width : 200px;
     height : 300px;

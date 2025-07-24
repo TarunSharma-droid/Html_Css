@@ -17,9 +17,9 @@ div{
     height : 12%;
     color : white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    align-items : center;
-    justify-content: end;
+    display: flex;        /* use to display */
+    align-items : center; /* brings in vertically center */
+    justify-content: end; /* brings in horizontally end  */
     
 }
 
