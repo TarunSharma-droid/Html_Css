@@ -1,8 +1,8 @@
 
-* { /*    " * "  Universal selector is used when we wants to give any specific propert to all the elements of the HTML file */
+* { /* Universal selector "*" is used when we wants to give any specific propert to all the elements of the HTML file */
 
-    margin: 0%;  /*for deciding margin of everthing of the webpage */
-    padding : 0%;  /*for deciding padding of everthing of the webpage */
+    margin: 0%;    /* for deciding default margin of everthing of the webpage */
+    padding : 0%;  /* for deciding default padding of everthing of the webpage */
     font-family : cursive ;
 }
 
